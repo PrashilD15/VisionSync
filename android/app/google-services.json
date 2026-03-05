@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438120326723",
+    "project_id": "visionsync-7ca33",
+    "storage_bucket": "visionsync-7ca33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438120326723:android:ca2196b6e53e0a895996f6",
+        "android_client_info": {
+          "package_name": "com.creativesouls.visionsync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoR4qa03f4SOafiG0IW471s1HmRbiRW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

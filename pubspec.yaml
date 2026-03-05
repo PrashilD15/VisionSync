@@ -1,0 +1,45 @@
+name: visionsync
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # --- VisionSync Dependencies ---
+  # Camera & UI
+  camera: ^0.10.5
+  fl_chart: ^0.70.0
+  
+  # ML & Processing
+  google_mlkit_face_detection: ^0.9.0
+  tflite_flutter: ^0.12.1
+  image: ^4.1.3 
+  vector_math: ^2.1.4
+  geolocator: ^11.0.0
+  
+  # Database (Firebase)
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.3
+  firebase_storage: ^11.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Registering the ML model and placeholder images
+  assets:
+    - assets/models/mobilefacenet.tflite
+    - assets/images/placeholder.png
